@@ -13,7 +13,7 @@ int main(){
         {
             putchar(tolower(c));
         }
-        if (isdigit(c))
+        if (ispunct(c))
         {
             putchar(c);
         }
