@@ -17,6 +17,9 @@ int main(){
         {
             putchar(c);
         }
+        if (isspace(c)){
+            putchar(c);
+        }
     }
 return 0;
 }
